@@ -1,0 +1,117 @@
+header {
+    
+    color: #cccccc; 
+    border-bottom-style: solid;
+    border-width: 20px;
+    height: 123px;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 5px;
+    bottom: 0;
+    left: 200;
+    margin: 0 400px 0 0px;
+
+    }
+
+h1 {
+    color: teal;
+    font-size: 30px;
+    padding: 10px 10px 10px 30 px;
+    margin: 50px 30px 30px 30px;
+    
+}
+
+ul {
+    list-style: none;
+}
+
+ ul li {
+    display: inline;
+
+}
+
+ul li a {
+    padding: 50px 20px;
+    color: teal;
+    float: right;
+    font-size: 20px;
+    
+}
+
+#Myname {
+    height: 80px;
+    margin: 0px 150000px 100px 400px ;
+    width: 400px;
+    text-align: center;
+    list-style: none;
+    box-sizing: border-box ;
+    background-color: teal;
+    color: white;
+    font-size: 30px;
+    padding: 45px;
+
+    }
+    
+    figure {
+        float: left;;
+        padding: 0px 15px 0px 0;
+        margin: 0 0 1em 1em;
+        }
+        
+        .FormInfo {
+    
+            color: grey;
+            margin: 100px 80 px 10 px 90px;
+            background-color: #dddddd;
+            font-size: 15px;
+            font-family: Arial;
+            
+            
+        
+            }
+            
+            input, textarea {
+                width: 920px;
+                padding: 10px;
+                text-align: right;
+                }
+
+                .Submit input{
+                    background-color: teal;
+                    color: white;
+                    text-align: center;
+                    height: 40px;
+                    width: 150px;
+                    }
+                    
+                    footer {
+
+                        background-color: #666666;
+                        text-align: center;
+                        color: white;
+                        border-top: 8px solid teal;
+                        height: 60px;
+                        position: fixed;
+                        left: 0;
+                        bottom: 0;
+                        width: 100%; 
+                    }
+                        
+   
+  .Kari {
+      background-color: white;
+  }
+
+ 
+
+
+  section {
+      background-color: white;
+      width: 960px;
+      height: 800px;
+      float: center;
+      margin: 0px 500px 10px 400px;
+      padding: 30px;
+      
+  }
+
