@@ -115,3 +115,37 @@ ul li a {
       
   }
 
+  @media only screen and (max-width: 768px) {
+    div.headerElements{
+        width: 80%;
+        margin: auto;
+
+    }
+
+    div.bodyElements{
+        margin: 0;
+        width: 72%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
+
+  @media only screen and (max-width: 640px) {
+    
+        div.headerElements{
+        width: auto;
+        }
+
+        div.liAbsolute{
+        position: unset;
+        width: auto;
+        background-color: #fff;
+
+        }
+
+        div.bodyElements{
+            margin-top: 85px;
+            width: 75%;
+        }
+        
+      
+       

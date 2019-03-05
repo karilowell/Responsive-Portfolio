@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<!-- 
+    Adriano Alves
+    Feb 21 2019
+    Berkeley Bootcamp HW1
+    contact.html file to get data fom user
+    code validaded at: https://validator.w3.org/#validate_by_input
+ -->
+ 
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Alves Contact</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <!-- <script src="main.js"></script> -->
+    <!-- Add a Favicon -->
+    <link rel="icon" href="./assets/imgages/favicon-a.ico">
+</head>
+<body>
+    <!--  
+    ******************* Header with my name and Anchors ********************* 
+    this div will be the logo with my name it will have a background green  
+    the logo will be place on left and anchors on the right 
+    background for header it white
+     -->
+     <header> 
+            <!-- container for all header elements to make it with width: 960px -->
+            <div class="topElements relative">
+                <!-- container for the h1 with name, this will have the background-color: #4aaaa5 -->
+                <div class="nameLogoBox absolute">
+                    <!-- H1 with name color: white -->
+                    <h1 class="nameLogo centerVertical relative">Adriano Alves</h1>
+                </div>
+    
+                <!-- container to hold the anchor tags (outter)-->
+                <div class="anchorsBox absolute">
+                    <!-- inner container, because we will have three anchors i will use anoter container  -->
+                    <!-- to make it center -->
+                    <div class="anchorsWrapper centerVertical relative">
+                        <!-- anchor to open index.html (About)-->
+                        <a href="index.html">About</a>
+                        <!-- anchor to open portofolio -->
+                        <a href="portfolio.html">Portofolio</a>
+                        <!-- anchor to open contact -->
+                        <a href="contact.html">Contact</a>
+                    </div>
+                    
+                </div>
+            </div>
+    </header>
+
+    <!-- 
+        *************************** MAIN CONTENT *****************************
+        This content will have a form to get data from user like email, name 
+        and a message,it will be used for contact
+     -->
+    <div class="centerContainer">
+        <div class="labelWrapper center-container-label">
+            <h2>Contact</h2>
+        </div>
+        <!-- horizontal hule -->
+        <hr>
+
+        <form>
+            <br>
+            <label for="">Name</label>
+            <br>
+            <!-- input to get the user's name -->
+            <input type="text">
+            <br><br>
+            <label for="">eMail</label>
+            <br>
+            <!-- input to get user's eMail -->
+            <input type="email">
+            <br><br>
+            <label for="">Message</label>
+            <br>
+            <!-- textarea to get user's message -->
+            <textarea name="usrMsg" id="#" cols="75" rows="10"></textarea>
+
+            <!-- button to user send the data -->
+            <button>Submit</button>
+        </form>
+    </div> <!-- end of center container -->
+
+    <!-- ************************ Footer ********************* -->
+    <footer class="absolute">
+        <div class="footerContainer centerVertical absolute">
+                <p>copyright ©</p>
+        </div>
+    </footer>
+</body>
+</html>
