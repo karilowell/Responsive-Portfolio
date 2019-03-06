@@ -1,79 +1,81 @@
-<!DOCTYPE html>
-<html lang-en-us>
-    <link href="style..css" rel="stylesheet">
-
-    <head>
-            <title>Karina</title>
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link href="style..css" rel="stylesheet" media="screen">
-            <link href="contact.html" href="Portfolio.html" href="index.html">
-
-            <body>
-                
-                    <header>
-
-                            <div class="headerElements">
-                           
-                              <ul>
-
-                                    <div class="liAbsolute">
-
-                                    <li><a href="contact.html">Contact</a></li>
-                                    <li><a href="Portfolio.html">Portfolio</a></li>
-                                    <li><a href="index.html">About</a></li>
-                                    
-                                    </div>
-                              </ul>
-
-                              <div id="Myname">Karina Lowell</div>
-                              
-                              </div>
-                              </header>
-                              
-                
-
-<body class="FormInfo">
-
-    <div class="bodyElements">
-    <section>
-<h1>Contact</h1>
-<hr color:#cccccc;>
-<form>
-    <p class="name">
-
-    Name <br> <input type="text" id="name">
-
-    </p>
-
-<p class="email">
-
-    Email <br><input type="email" id="email">
-</p>
-
-<p class="Message">
-
-    <text area>
-        Message<br> <input type="text" style="height: 100px">
-        </text area>
-</p>
-
-<p class="Submit">
-
-    <input type="Submit" value="Submit">
-</p>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Karina Lowell</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="style..css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     
     
-</form>
+    
+</head>
+<body>
 
-</section>
+     <header> 
+            <!-- container to make all elements with width: 960px -->
+            <div class="topElements relative">
+                <!-- container for the h1 with name, this will have the background-color: #4aaaa5 -->
+                <div class="nameLogoBox absolute">
+                    <!-- H1 with name color: white -->
+                    <h1 class="nameLogo centerVertical relative">Karina Lowell</h1>
+                </div>
+    
+                <!-- container to hold the anchor tags (outter)-->
+                <div class="anchorsBox absolute">
+                    <!-- inner container, because we will have three anchors i will use anoter container  -->
+                    <!-- to make it center -->
+                    <div class="anchorsWrapper centerVertical relative">
+                        <!-- anchor to open index.html (About)-->
+                        <a href="index.html">About</a>
+                        <!-- anchor to open portofolio -->
+                        <a href="Portfolio.html">Portofolio</a>
+                        <!-- anchor to open contact -->
+                        <a href="contact.html">Contact</a>
+                    </div>
+                    
+                </div>
+            </div>
+    </header>
 
-</div>
+    <!-- 
+        *************************** MAIN CONTENT *****************************
+        This content will have a form to get data from user like email, name 
+        and a message,it will be used for contact
+     -->
+    <div class="centerContainer">
+        <div class="labelWrapper center-container-label">
+            <h2>Contact</h2>
+        </div>
+        <!-- horizontal hule -->
+        <hr>
 
+        <form>
+            <br>
+            <label for="">Name</label>
+            <br>
+            <!-- input to get the user's name -->
+            <input type="text">
+            <br><br>
+            <label for="">eMail</label>
+            <br>
+            <!-- input to get user's eMail -->
+            <input type="email">
+            <br><br>
+            <label for="">Message</label>
+            <br>
+            <!-- textarea to get user's message -->
+            <textarea name="usrMsg" id="#" cols="75" rows="10"></textarea>
+
+            <!-- button to user send the data -->
+            <button>Submit</button>
+        </form>
+    </div> <!-- end of center container -->
+
+    <!-- ************************ Footer ********************* -->
+    <footer class="absolute">
+        <div class="footerContainer centerVertical absolute">
+                <p>copyright ©</p>
+        </div>
+    </footer>
 </body>
-
-<footer class="Absolute">
-        <p>Copyright ©</p>
-      </footer>
-
-
 </html>

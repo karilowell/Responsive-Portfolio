@@ -1,108 +1,97 @@
-<!DOCTYPE html>
-<html lang=en-US>
+<html lang="en-US">
 
 <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Alves Contact</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="style..css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+</head>
 
-    <title>Karina</title>
-
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link href="style..css" rel="stylesheet" media="screen">
-            <link href="contact.html" href="Portfolio.html" href="index.html">
-    </head>
+<body>
     
     <header>
-
-        <div class="headerElements">
-        
-    <ul>
-
-        <div class="liAbsolute">
-            
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="Portfolio.html">Portfolio</a></li>
-            <li><a href="index.html">About</a></li>
-
+        <!-- container to make all elemments with width: 960px -->
+        <div class="topElements relative">
+            <!-- container for the h1 with name, this will have the background-color: #4aaaa5 -->
+            <div class="nameLogoBox absolute">
+                <!-- H1 with name color: white -->
+                <h1 class="nameLogo centerVertical relative">Karina Lowell</h1>
             </div>
-            
-        
-        </ul>
 
-
-    <div id="Myname">Karina Lowell</div>
-
-        
+            <!-- container to hold the anchor tags (outter)-->
+            <div class="anchorsBox absolute">
+                <!-- inner container, because we will have three anchors i will use anoter container  -->
+                <!-- to make it center -->
+                <div class="anchorsWrapper centerVertical relative">
+                    <!-- anchor to open index.html (About)-->
+                    <a href="index.html">About</a>
+                    <!-- anchor to open portofolio -->
+                    <a href="portfolio.html">Portfolio</a>
+                    <!-- anchor to open contact -->
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
         </div>
+    </header>
+    <!--
         
-        </header>
+        -->
+    <div class="centerContainer">
+        <div class="labelWrapper center-container-label">
+            <h2>Portfolio</h2>
+        </div>
+        <!-- horizontal hule -->
+        <hr>
+        <!-- ******************** Row and Columns holding the images **************** -->
+        <!-- 
+         
+        -->
+        <!-- First ROW R1 -->
+        <div class="row">
+            <!-- R1/C1 -->
+            <div class="column boxImage ">
+                <img class="portofolio-img" src="technics-q-c-640-480-1.jpg" alt="Android Studio">
+                <h2 class="boxLabel absolute">Web</h2>
+            </div>
+            <!-- R1/C2 -->
+            <div class="column boxImage ">
+                <img class="portofolio-img" src="technics-q-c-640-480-2.jpg" alt="Android Studio">
+                <h2 class="boxLabel absolute">App</h2>
+            </div>
+        </div>
+        <!-- Second ROW R2 -->
+        <div class="row">
+            <!-- R2/C1 -->
+            <div class="column boxImage">
+                <img class="portofolio-img" src="technics-q-c-640-480-5.jpg" alt="Linux">
+                <h2 class="boxLabel absolute">Products</h2>
+            </div>
+            <!-- R2/C2 -->
+            <div class="column boxImage">
+                <img class="portofolio-img" src="technics-q-c-640-480-7.jpg" alt="WEB Developer">
+                <h2 class="boxLabel absolute">Games</h2>
+            </div>
+        </div>
 
-        <body class="FormInfo">
 
-            <div class="bodyElements">
+        <!-- Third Row R3 -->
+        <div class="row">
+            <!-- R3/C1 -->
+            <div class="column boxImage">
+                <img class="portofolio-img" src="technics-q-c-640-480-9.jpg" alt="Linux">
+                <h2 class="boxLabel absolute">Mobile</h2>
+            </div>
+        </div>
 
-                <section>
-                    
+    </div>
+    <!-- ************************ Footer ********************* -->
+    <footer class="absolute">
+        <div class="footerContainer centerVertical absolute">
+            <p>copyright ©</p>
+        </div>
+    </footer>
 
-                <h1>Portfolio</h1>
-                <hr>
-                  <br>          
-
-
-
-                  <style>
-                        * {
-                        box-sizing: border-box;
-                        }
-                        .column {
-                        float: left;
-                        width: 35%;
-                        padding: 1px;
-                        }
-                        /* Clearfix (clear floats) */
-                        .row::after {
-                        clear: both;
-                        display: table;
-                        }
-                        </style>
-                        
-                    
-                        
-                        <div class="row">
-                          <div class="column">
-                            <img src="https://www.cadservices.co.uk/images/autocad-revit-lt-suite-badge-128px-hd.png" alt="Products" style="width:30%">
-                            <h3 class="boxLabel absolute">Products</h3>
-                          </div>
-                          
-                          <div class="column">
-                            <img src="https://www.cadservices.co.uk/images/autocad-revit-lt-suite-badge-128px-hd.png" alt="Website" style="width:40%">
-                            <h3 class="boxLabel absolute">Website</h3>
-                          </div>
-                          <div class="column">
-                                <img src="https://www.cadservices.co.uk/images/autocad-revit-lt-suite-badge-128px-hd.png" alt="Apps" style="width:40%">
-                                <h3 class="boxLabel absolute">Apps</h3>
-                              </div>
-
-                              <div class="column">
-                                    <img src="https://www.cadservices.co.uk/images/autocad-revit-lt-suite-badge-128px-hd.png" alt="Games" style="width:40%">
-                                    <h3 class="boxLabel absolute">Games</h3>
-                                  </div>
-
-                                  <div class="column">
-                                        <img src="https://www.cadservices.co.uk/images/autocad-revit-lt-suite-badge-128px-hd.png" alt="Automation" style="width:40%">
-                                        <h3 class="boxLabel absolute">Automation</h3>
-                                      </div>
-                          
-                        
-                                    </section>
-
-                                    </div>
-                    
-        
-            </body>
-
-                <footer class="Absolute">
-
-                    <p>Copyright ©</p>
-
-                  </footer>
-
-                  </html>
+</body>
+</html>

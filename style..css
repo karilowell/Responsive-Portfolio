@@ -1,151 +1,387 @@
-header {
+a{
     
-    color: #cccccc; 
-    border-bottom-style: solid;
-    border-width: 20px;
-    height: 123px;
-    width: 100%;
-    background-color: #ffffff;
-    padding: 5px;
-    bottom: 0;
-    left: 200;
-    margin: 0 400px 0 0px;
-
-    }
-
-h1 {
-    color: teal;
-    font-size: 30px;
-    padding: 10px 10px 10px 30 px;
-    margin: 50px 30px 30px 30px;
-    
+    padding: 10px;
 }
 
-ul {
-    list-style: none;
+/********* anchor hover *********/
+/* hover efect for anchor it will add a boder around anchor */
+a:hover{
+    border: solid 1px #4aaaa5;
 }
 
- ul li {
-    display: inline;
-
-}
-
-ul li a {
-    padding: 50px 20px;
-    color: teal;
-    float: right;
-    font-size: 20px;
+/********* Body *********/
+body{
     
-}
-
-#Myname {
-    height: 80px;
-    margin: 0px 150000px 100px 400px ;
-    width: 400px;
-    text-align: center;
-    list-style: none;
-    box-sizing: border-box ;
-    background-color: teal;
-    color: white;
-    font-size: 30px;
-    padding: 45px;
-
-    }
-    
-    figure {
-        float: left;;
-        padding: 0px 15px 0px 0;
-        margin: 0 0 1em 1em;
-        }
-        
-        .FormInfo {
-    
-            color: grey;
-            margin: 100px 80 px 10 px 90px;
-            background-color: #dddddd;
-            font-size: 15px;
-            font-family: Arial;
-            
-            
-        
-            }
-            
-            input, textarea {
-                width: 920px;
-                padding: 10px;
-                text-align: right;
-                }
-
-                .Submit input{
-                    background-color: teal;
-                    color: white;
-                    text-align: center;
-                    height: 40px;
-                    width: 150px;
-                    }
-                    
-                    footer {
-
-                        background-color: #666666;
-                        text-align: center;
-                        color: white;
-                        border-top: 8px solid teal;
-                        height: 60px;
-                        position: fixed;
-                        left: 0;
-                        bottom: 0;
-                        width: 100%; 
-                    }
-                        
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
    
-  .Kari {
-      background-color: white;
-  }
+    color: #777777;
+   
+    margin: 0;
+    
+    background-image: url("../images/vintage-concrete.png");
+}
 
- 
+/******* button *******/
+
+button {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+/******* button hover **********/
+/* hover efect for button */
+button:hover{
+    background-color: lightgreen;
+}
+
+/******** footer *********/
+
+footer{
+    background-color: #666666;
+    width: 100%;
+    height: 35px;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    border: 12px;
+    border-top-color: #4aaaa5;
+}
+
+/*************** Form **************/
+/* used on contact.html */
+form{
+    background-color: white;
+    width: 100%;
+}
+
+/********* H1 **********/
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin-top: 0;
+    color: #fff;
+}
+/********* H2 **********/
+h2{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+}
+
+/********** header *********/
+header{
+    background-color: white;
+    border-color: #cccccc;
+    height: 70px;
+}
+
+/*************** html **************/
+/* used to make the footer stick */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+/******* input *******/
+/* used at contact.html */
+input{
+    width: 100%;
+    line-height: 2;
+}
 
 
-  section {
-      background-color: white;
-      width: 960px;
-      height: 800px;
-      float: center;
-      margin: 0px 500px 10px 400px;
-      padding: 30px;
-      
-  }
+p{
+    line-height: 1.25;
+}
 
-  @media only screen and (max-width: 768px) {
-    div.headerElements{
-        width: 80%;
-        margin: auto;
+/******** textarea *******/
+/* used at contact.html */
+textarea{
+    width: 100%;
+}
 
+
+/* * * * * * * * * * * Class Selectors * * * * * * * * * * */
+
+
+/******** Absolute Position ********/
+/* used to set position to absolute */
+.absolute{
+    position: absolute;
+}
+
+/********* anchors *********/
+/* used to make the anchors center verticaly */
+.anchorsWrapper{
+    margin: 0;
+    text-align: center;
+}
+
+/********* anchorsBox ********/
+/* used to place the anchors to the right */
+.anchorsBox{
+    height: 70px;
+    width: 270px;
+    right: 0;
+}
+
+/************* boxImage ***********/
+/* used to stack the label on top of the image at portofolio.html */
+.boxImage{
+    /* width: 300px; */
+    width: 200px;
+    /* height: 300px; */
+    height: 200px;
+    background: #fff;
+    padding: 0;
+    position: relative;
+    margin: 0 5em 0 0;
+}
+
+/*********** boxLAbel **************/
+/* used at portofolio.htm to stack the label on a picture */
+.boxLabel{
+    background-color: #4aaaa5;
+    color: #fff;
+    /* width: 300px; */
+    width: 200px;
+    text-align: center;
+    bottom: 10%;
+    padding: 0.5em 0;
+}
+
+/******** centerContainer *******/
+/* container that hold the prncipal contents on the page */
+/* required width:960px; */
+
+.centerContainer{
+    background-color: white; 
+    /* 910 + 25 padding + 25 padding = 960 */
+    width: 910px; 
+    /* height: 400px; */
+    margin: auto;
+    margin-top: 25px;
+    padding: 25px;
+}
+
+/************** centerVertical ***************/
+/* used to center content vertially */
+.centerVertical{
+    top: 50%;
+    left: 50%;
+    /* translate x = 50% and y = -50% */
+    transform: translate(-50%, -50%);
+}
+
+/*************** center-container-label ************/
+/* used as container for the label at each page */
+.center-container-label{
+    top: 50%;
+    left: 0;
+    /* translate x = 0 and y = -50% */
+    transform: translate(0, -50%);
+}
+
+/* *************** column **************** */
+/* used for row and table format at 
+portofolio.html file */
+.column {
+    float: left;
+    width: 30%;
+    padding: 25px;
+}
+
+/********* footerContainer ********/
+
+.footerContainer{
+    color: white;
+    border-top: 8px solid teal;
+}
+
+/******* about-img ******/
+
+.about-img{
+    width: 20%;
+    height: 20%;
+    float: left; 
+    margin: 0 10px 0 0;
+}
+
+/******** contactLabelContainer *******/
+/* used to center the main content label vetically */
+.labelContainer{
+    height: 50px;
+    width: 270px;
+    left: 0;
+}
+
+/******** labelWrapper ********/
+/* i dont remember what i used for, i will find out later lol */
+.labelWrapper{
+    margin: 0;
+}
+
+/******** nameLogoBox ********/
+/* used to make the logo right justify and add background color */
+.nameLogoBox{
+    background-color: #4aaaa5;
+    height: 70px;
+    width: 270px;
+    left: 0;
+}
+
+/********** nameLogo ********/
+/* used to make the logo's text center vertically */
+.nameLogo {
+    text-align: center;
+}
+
+/******* portofolio-img ******/
+/* used at portofolio.html */
+.portofolio-img{
+    /* width: 300px; */
+    width: 200px;
+    /* height: 300px; */
+    height: 200px;
+    float: left; 
+    margin: 0 10px 0 0;
+}
+
+/******* portofolio-img hover ******/
+/* hover efect around image used at portofolio */
+.portofolio-img:hover{
+    border: solid 1px #4aaaa5;
+}
+
+/******* Relative Position ********/
+/* used to set position to absolute */
+.relative{
+    position: relative;
+}
+
+/************ Row ************/
+/* used to clear the float after use the column class and make the row again */
+/* this selector inserts something after the content of each selected element(s). */
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/******* headerElements *******/
+/* used on header to give the elements the same size of main content */
+.topElements{
+    margin: auto;
+    width: 960px;
+}
+
+
+/* * * * * * * * * * * Media Screen Tags * * * * * * * * * * */
+
+
+
+/* Change when the browser window is 960px wide or less: */
+/* if 960px > (screen width) > 768px */
+@media only screen and (max-width: 980px) {
+
+    div.topElements{
+        /* reduce the width to 95% at top elements */
+        width: 95%;
     }
 
-    div.bodyElements{
+    div.centerContainer {
+        /* reduce the main contents */
+        width: 75%;
+        /* 
+        make the main content left justify
+        the topElement will have 95% of the view 
+        so to make it center i used:
+        margin = (100% - 95%)/2 = 2.5%
+        */
+        margin-left: 2.5%;
+    }
+
+    div.column{
+        width: 25%;
+        /* reduce the images paddin at portfolio.html */
+        padding: 3%;
+    }
+
+
+/* Change when the browser window is 768px wide or less: */
+/* if 768px > (screen width) > 640px */
+@media only screen and (max-width: 768px) {
+
+    div.topElements{
+        width: 80%;
+        /* used to center top-elements */
+        margin: auto;
+    }
+
+    div.centerContainer{
         margin: 0;
         width: 72%;
+        /* make the main content center */
         margin-left: auto;
         margin-right: auto;
         margin-top: 25px;
+    }
+}
+/* Change when the browser window is 640px wide or less: */
+/* if 640px > (screen width)  */
+@media only screen and (max-width: 640px) {
 
-  @media only screen and (max-width: 640px) {
-    
-        div.headerElements{
+    div.topElements{
         width: auto;
-        }
+    }
 
-        div.liAbsolute{
+    div.anchorsBox{
+        /*
+         remove position left to move 
+         anchors tag under label 
+         */
         position: unset;
+        /* make it center */
         width: auto;
         background-color: #fff;
+    }
 
-        }
+    div.nameLogoBox{
+        /* center label with my name */
+        position: unset;
+        width: auto;
+    }
 
-        div.bodyElements{
-            margin-top: 85px;
-            width: 75%;
-        }
-        
-      
-       
+    div.centerContainer{
+        /* 
+        because anchors will be 
+        placed under label, 
+        it need more margin from the top 
+        */
+        margin-top: 85px;
+        width: 85%
+        /* width: 75%; */
+    }
+
+    div.column{
+        /* center images at portfolio.html */
+        float: none;
+        /* make it center */
+        width: fit-content;
+        margin: auto;
+    }
+
+    img.about-img{
+        /* 
+        remove the float of 
+        the images at index.html 
+        */
+        float: none;
+        width: 100%;
+    }

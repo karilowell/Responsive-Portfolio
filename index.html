@@ -1,66 +1,75 @@
 <!DOCTYPE html>
-<html lang=en-US>
 
+<html lang="en-US">
 <head>
-    <title>Karina</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style..css" rel="stylesheet" media="screen">
-    <link href="contact.html" href="Portfolio.html" href="index.html">
-
-    </head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Adriano Alves</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style..css">
     
-<header>      
-        <div class="headerElements">
-
-    <ul>
-        <div class="liAbsolute">
+    
+</head>
+<body>
+   
+     
+    <header> 
         
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="Portfolio.html">Portfolio</a></li>
-            <li><a href="index.html">About</a></li>
-                    
+        <div class="topElements relative">
+            <!-- container for the h1 with name, this will have the background-color: #4aaaa5 -->
+            <div class="nameLogoBox absolute">
+                <!-- H1 with name color: white -->
+                <h1 class="nameLogo centerVertical relative">Karina Lowell</h1>
+            </div>
+
+            <!-- container to hold the anchor tags (outter)-->
+            <div class="anchorsBox absolute">
+                <!-- inner container, because we will have three anchors i will use anoter container  -->
+                <!-- to make it center -->
+                <div class="anchorsWrapper centerVertical relative">
+                    <!-- anchor to open index.html (About)-->
+                    <a href="index.html">About</a>
+                    <!-- anchor to open portofolio -->
+                    <a href="Portfolio.html">Portofolio</a>
+                    <!-- anchor to open contact -->
+                    <a href="contact.html">Contact</a>
+                </div> 
+            </div>
         </div>
-
-        </ul>
-        
-
-        <div id="Myname">Karina Lowell</div>
-
-      </div>  
-        
-        </header>
-      
-         
-          <body class="FormInfo">
-
-            <div class="bodyElements">
-
-        <section>
-
-        <h1>About me</h1>
-        <hr color:#cccccc>
-        <br>
-        <figure>
-        <img src="Karina (1).jpg">
-        
-        
-        <p>My name is Karina Lowell and I currently work for a software company that designs software for engineers and architects.</p>
-            <p>I became inspired to become a software engineer by working with many talented software engineers.</p><p>I am very excited to learn new languages and skills from this class.</p>
-
-            
-
-            <br><br><br>
-        </section>
-
-        <div>
-
-    </body>
-    <br><br><br><br><br><br><br>
-
-    <footer class="Absolute">
-
-            <p>Copyright ©</p>
-
-          </footer>
-
+    </header>
+    <!-- 
+    ******************************* Main content ******************************* 
+    this is the maincontent on the certer of the page, it will have a image
+    and 2 paragraphs. backgroun-color: white and width:960px
+    -->
+    <div class="centerContainer"> 
+        <!-- the container for the about me text used to make the H2 center-->
+        <div class="labelWrapper center-container-label" >
+            <!-- H2 with the About Me text -->
+            <h2 >About Me</h2>
+        </div>
+        <!-- horizontal hule -->
+        <hr>
+        <!-- container to hold the image and the first paragraph -->
+        <div>                
+                <!-- my image width: 150px heith: 150px -->
+                <!-- <img src="./assets/imgages/me.jpg" alt="my picture"> -->
+                <img class="about-img" src="Karina (1).jpg" alt="my picture">
+            <div>
+                <p>
+                        My name is Karina Lowell and I currently work for a software company that designs software for engineers and
+                        architects.</p>
+                        <p>I became inspired to become a software engineer by working with many talented software engineers.</p>
+                        <p>I am very excited to learn new languages and skills from this class.
+            </p>
+        </div>
+    </div > <!-- END of centerContainer -->
+    <!-- ************************ Footer ********************* -->
+    <footer class="absolute">
+        <div class="footerContainer centerVertical absolute">
+                <p>copyright ©</p>
+        </div>
+    </footer>
+       
+</body>
 </html>
