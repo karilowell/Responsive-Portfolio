@@ -4,12 +4,12 @@ a{
 }
 
 /********* anchor hover *********/
-/* hover efect for anchor it will add a boder around anchor */
+
 a:hover{
     border: solid 1px #4aaaa5;
 }
 
-/********* Body *********/
+
 body{
     
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -36,7 +36,7 @@ button {
     cursor: pointer;
 }
 
-/******* button hover **********/
+
 /* hover efect for button */
 button:hover{
     background-color: lightgreen;
@@ -332,9 +332,8 @@ portofolio.html file */
         margin-right: auto;
         margin-top: 25px;
     }
-}
-/* Change when the browser window is 640px wide or less: */
-/* if 640px > (screen width)  */
+
+
 @media only screen and (max-width: 640px) {
 
     div.topElements{
@@ -383,5 +382,5 @@ portofolio.html file */
         the images at index.html 
         */
         float: none;
-        width: 100%;
+        width: 90%;
     }
